@@ -1,10 +1,10 @@
-name: Helloworld
+name: HelloWorld
 
-on [push]
+on: [push]
 
 jobs:
   echo:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu:latest
     steps:
     - name: hello
-      run: echo "Hello, Git!"
+      run: echo "Hello, GH!"
